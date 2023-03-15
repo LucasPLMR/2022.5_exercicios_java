@@ -17,5 +17,7 @@ public class Principal {
 
             System.out.println(numero.maiormenor(6,8));
         
+            System.out.println(numero.ordenarCrescente(94,5,39));
+
     }
 }
