@@ -1,5 +1,5 @@
 
-package basejava;
+package basejava.numeros;
 
 import java.util.Scanner;
 
@@ -36,11 +36,11 @@ public class Principal {
             // System.out.println(numero.ordenarCrescente(v1,v2,v3));
 
             try{
-            numero.valor = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um número: "));
-            JOptionPane.showMessageDialog(null, "O Número é "+ numero.parImpar());
-        } catch (Exception ex){
-            JOptionPane.showMessageDialog(null,"Digite apenas número!");
-        }
+                    numero.valor = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite um número: "));
+                    JOptionPane.showMessageDialog(null, "O Número é "+ numero.parImpar());
+                } catch (Exception ex){
+                    JOptionPane.showMessageDialog(null,"Digite apenas número!");
+                }
     }
 
 }

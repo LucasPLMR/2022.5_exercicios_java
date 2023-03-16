@@ -1,5 +1,5 @@
 
-package basejava;
+package basejava.numeros;
 
 
 public class Numero {
