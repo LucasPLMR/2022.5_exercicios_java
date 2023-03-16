@@ -60,16 +60,16 @@ public String ordenarCrescente(int v1, int v2, int v3){
         v1 = v2;
         v2 = temp;
     }
-    if (v2 > v3){
-        temp = v3;
-        v3 = v2;
-        v2 = temp;
-    }
     if (v1 > v3){
         temp = v3;
         v3 = v1;
         v1 = temp;
+    }if (v2 > v3){
+        temp = v3;
+        v3 = v2;
+        v2 = temp;
     }
+    
     return  v1 + " " + v2 + " " + v3;
 }
 }
